@@ -1,0 +1,34 @@
+{
+	"name": "argjs-seed",
+	"version": "0.1.0",
+	"description": "Angular, RequireJS, Grunt seed",
+	"directories": {
+		"test": "test"
+	},
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "Peter Nguyen <peter@likipe.se>",
+	"devDependencies": {
+		"karma-script-launcher": "~0.1.0",
+		"karma-chrome-launcher": "~0.1.0",
+		"karma-firefox-launcher": "~0.1.0",
+		"karma-html2js-preprocessor": "~0.1.0",
+		"karma-jasmine": "~0.1.3",
+		"karma-requirejs": "~0.1.0",
+		"karma-coffee-preprocessor": "~0.1.0",
+		"karma-phantomjs-launcher": "~0.1.0",
+		"karma": "~0.10.4",
+		"karma-ng-scenario": "~0.1.0",
+		"cssmin": "*",
+		"grunt": "*",
+		"grunt-cli": "*",
+		"grunt-contrib-clean": "*",
+		"grunt-contrib-copy": "*",
+		"grunt-contrib-less": "*",
+		"grunt-contrib-requirejs": "*",
+		"grunt-image-embed": "*",
+		"grunt-plugin-angular-template-inline": "nebhale/grunt-plugin-angular-template-inline.git", 
+		"grunt-string-replace": "*"
+	}
+}
