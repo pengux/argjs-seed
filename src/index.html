@@ -3,8 +3,22 @@
 	<head>
 		<title>Angular-RequireJS sample app</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		
-		<link rel="stylesheet" type="text/css" media="all" href="app/css/app.css" />
+
+		<!-- LESS_START -->
+		<link rel="stylesheet/less" type="text/css" href="app/less/main.less" />
+
+		<script type="text/javascript">
+			less = {
+				env: "development"
+			};
+		</script>
+
+		<script src="../bower_components/less/dist/less-1.4.2.min.js"></script>
+		<!-- LESS_END -->
+
+		<!-- JS_START -->
+		<script src="../bower_components/requirejs/require.js" data-main="app/js/main.js"></script>
+		<!-- JS_END -->
 	</head>
 	<body >
 		<h1>AngularJS + RequireJS</h1>
@@ -13,6 +27,5 @@
 			<li><a href="#/view2">View 2</a></li>
 		</ul>
 		<div ng-view></div>
-		<script data-main="app/js/main" src="/bower_components/requirejs/require.js"></script>		
 	</body>
 </html>
