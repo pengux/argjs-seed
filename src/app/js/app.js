@@ -9,12 +9,12 @@ define([
 		'use strict';
 
 		// Declare app level module which depends on filters, and services
-		
-		return angular.module('myApp', [
+
+		return angular.module('app', [
 			'ngRoute',
-			'myApp.controllers',
-			'myApp.filters',
-			'myApp.services',
-			'myApp.directives'
+			'app.controllers',
+			'app.filters',
+			'app.services',
+			'app.directives'
 		]);
 });

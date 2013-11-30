@@ -1,3 +1,4 @@
+/*global document */
 require.config({
 	paths: {
 		angular: '../../bower_components/angular/angular',
@@ -29,6 +30,6 @@ require( [
 
 	angular.element().ready(function() {
 		$html.addClass('ng-app');
-		angular.bootstrap($html, [app['name']]);
+		angular.bootstrap($html, [app.name]);
 	});
 });
