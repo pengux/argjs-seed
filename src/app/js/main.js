@@ -3,6 +3,7 @@ require.config({
 	paths: {
 		angular: '../../bower_components/angular/angular',
 		angularRoute: '../../bower_components/angular-route/angular-route',
+		angularResource: '../../bower_components/angular-resource/angular-resource',
 		angularMocks: '../../bower_components/angular-mocks/angular-mocks',
 		text: '../../bower_components/requirejs-text/text'
 	},
@@ -10,6 +11,7 @@ require.config({
 	shim: {
 		'angular' : {'exports' : 'angular'},
 		'angularRoute': ['angular'],
+		'angularResource': ['angular'],
 		'angularMocks': {
 			deps:['angular'],
 			'exports':'angular.mock'
