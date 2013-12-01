@@ -2,7 +2,7 @@
 
 This is based on [angularjs-requirejs-seed](https://github.com/maxdow/angularjs-requirejs-seed) but also includes [Gruntjs](http://gruntjs.com/) and a different folder structure.
 
-* AngularJS 1.2.0
+* AngularJS 1.2.3
 * RequireJS 2.1.9
 * Gruntjs
 * Full support for unit and e2e tests

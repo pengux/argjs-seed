@@ -1,6 +1,6 @@
 {
-	"name": "angular-requirejs-seed",
-	"version": "0.2.0",
+	"name": "argjs-seed",
+	"version": "0.1.0",
 	"ignore": [
 		"**/.*",
 		"node_modules",
@@ -9,12 +9,13 @@
 		"tests"
 	],
 	"devDependencies": {
-		"angular": "~1.2.0",
-		"angular-scenario": "~1.2.0",
-		"angular-route": "~1.2.0",
-		"angular-mocks": "~1.2.0",
+		"angular": "~1.2.3",
+		"angular-scenario": "~1.2.3",
+		"angular-route": "~1.2.3",
+		"angular-mocks": "~1.2.3",
 		"requirejs": "~2.1.9",
 		"requirejs-text": "~2.0.10",
-		"less": "*"
+		"less": "*",
+		"bootstrap": "*"
 	}
 }
