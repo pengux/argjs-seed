@@ -10,9 +10,14 @@ This is based on [angularjs-requirejs-seed](https://github.com/maxdow/angularjs-
 
 ## Installation
 
-    git clone git@github.com:pengux/argjs-seed.git [your-project-folder]
-    cd [your-project-folder]
-    (Optional) Edit package.json and add/remove the packages that your project requires
-    sudo npm install
-    (Optional) Edit bower.json and add/remove the components that your project requires
-    bower install
+	git clone git@github.com:pengux/argjs-seed.git [your-project-folder]
+	cd [your-project-folder]
+	(Optional) Edit package.json and add/remove the packages that your project requires
+	sudo npm install
+	(Optional) Edit bower.json and add/remove the components that your project requires
+	bower install
+
+## Deployment
+
+	cd [path-to-your-project-folder]
+	grunt dist
