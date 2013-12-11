@@ -28,7 +28,7 @@
 		"grunt-contrib-less": "*",
 		"grunt-contrib-requirejs": "*",
 		"grunt-image-embed": "*",
-		"grunt-plugin-angular-template-inline": "nebhale/grunt-plugin-angular-template-inline.git", 
+		"grunt-plugin-angular-template-inline": "nebhale/grunt-plugin-angular-template-inline.git",
 		"grunt-string-replace": "*"
 	}
 }
