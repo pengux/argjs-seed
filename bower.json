@@ -15,8 +15,6 @@
 		"angular-resource": "~1.2.3",
 		"angular-mocks": "~1.2.3",
 		"requirejs": "~2.1.9",
-		"requirejs-text": "~2.0.10",
-		"less": "*",
-		"bootstrap": "*"
+		"requirejs-text": "~2.0.10"
 	}
 }
